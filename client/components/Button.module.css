@@ -1,0 +1,13 @@
+.button {
+    background-color: blueviolet;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.button a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+

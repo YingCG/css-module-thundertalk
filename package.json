@@ -1,5 +1,5 @@
 {
-  "name": "starter",
+  "name": "css-module-thundertalk",
   "version": "0.2.1",
   "description": "React components consuming Web APIs",
   "repository": "https://github.com/dev-academy-challenges/react-to-web-api.git",
@@ -42,7 +42,8 @@
     "@testing-library/user-event": "^12.6.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^26.6.3",
-    "babel-loader": "^8.2.2",
+    "babel-loader": "^8.2.3",
+    "babel-preset-env": "^1.7.0",
     "eslint": "7.9.0",
     "eslint-config-eda": "0.1.4",
     "jest": "^26.6.3",
@@ -51,15 +52,34 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
+    "style-loader": "^3.3.1",
     "superagent": "^6.1.0",
     "supertest": "^6.0.1",
     "webpack": "^5.10.3",
-    "webpack-cli": "^4.2.0"
+    "webpack-cli": "^4.2.0",
+    "css-loader": "^6.5.1",
+    "css-modulesify": "^0.25.1",
+    "postcss-color-rebeccapurple": "^2.0.0",
+    "postcss-modules-extract-imports": "^1.0.0",
+    "postcss-modules-local-by-default": "^1.0.0",
+    "postcss-modules-scope": "^1.0.0"
   },
   "dependencies": {
     "@babel/register": "^7.12.10",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
     "express": "^4.17.1",
     "knex": "^0.21.13",
     "sqlite3": "^5.0.0"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "brfs",
+        {
+          "ignore": "\\.(json|css)$"
+        }
+      ]
+    ]
   }
 }
