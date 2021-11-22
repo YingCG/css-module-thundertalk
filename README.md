@@ -59,4 +59,6 @@ import CSSNameAsReference from './Content.module.css'
 import CSSModule from './Button.module.css'
 
 <button className={CSSModule.button}>
-```# css-module-thundertalk
+```
+### `You will see each style you compile with css on dev tools with a unique id`
+
