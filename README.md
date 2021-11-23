@@ -1,3 +1,8 @@
+This example have 3 different way for styling in react app:
+1. main css in the public folder
+2. inline style pass as an javascript object
+3. css module which we import as component, to keep the code clean, reusable and no more style conflict using inline style method.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
