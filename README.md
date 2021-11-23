@@ -1,4 +1,4 @@
-This example have 3 different way for styling in react app:
+## This example have 3 different way for styling in react app:
 1. main css in the public folder
 2. inline style pass as an javascript object
 3. css module which we import as component, to keep the code clean, reusable and no more style conflict using inline style method.
