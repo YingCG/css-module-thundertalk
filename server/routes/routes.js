@@ -4,6 +4,7 @@ const request = require('superagent')
 
 module.exports = router
 
+
 // Server use '/api/v1/home'
 router.get('/', (req, res) => {
   request.get('https://random-d.uk/api/v2/random')

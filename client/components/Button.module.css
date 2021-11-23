@@ -1,13 +1,39 @@
-.button {
+.purple {
     background-color: blueviolet;
     padding: 10px 20px;
     cursor: pointer;
     border: none;
 }
 
-.button a{
+.green {
+    background-color: #88E0EF;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.pink {
+    background-color: #FFDEDE;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.purple a{
+    font-weight: 500;
+    color: #D7E9F7;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.green a{
     color: white;
     font-size: 18px;
     text-decoration: none;
 }
 
+.pink a{
+    color: #0F52BA;
+    font-size: 18px;
+    text-decoration: none;
+}

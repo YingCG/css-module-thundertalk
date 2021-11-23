@@ -1,9 +1,10 @@
 ## This example have 3 different way for styling in react app:
 1. Home page using a main css from the public folder
 2. Home page has an inline style pass as an javascript object, to style the button
-3. Notes Page have two css module styling. Which we import as component, using inline style method.
-4. Notes page also have another button using main css from the public folder as a comparison.
-5. CSS module help to keep the code clean, reusable and no more style conflict.
+3. Notes Page have use css module styling. Which we import as component, using inline style method.
+4. CSS module help to keep the code clean, reusable and no more style conflict.
+5. We can organize all the relevant component-for example the button style here to call as inline style only when it is apply the style.
+
 
 # Getting Started with Create React App
 
